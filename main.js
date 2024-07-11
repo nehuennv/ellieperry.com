@@ -1,17 +1,17 @@
-document.addEventListener('DOMContentLoaded', function () {
-    ScrollReveal().reveal('.textLogin', { delay: 200, origin: 'top', distance: '50px' });
-    ScrollReveal().reveal('.input-container', { delay: 200, origin: 'right', distance: '50px' });
-    ScrollReveal().reveal('.loginButton', { delay: 200, origin: 'bottom', distance: '100px' });
+// document.addEventListener('DOMContentLoaded', function () {
+//     ScrollReveal().reveal('.textLogin', { delay: 200, origin: 'top', distance: '50px' });
+//     ScrollReveal().reveal('.input-container', { delay: 200, origin: 'right', distance: '50px' });
+//     ScrollReveal().reveal('.loginButton', { delay: 200, origin: 'bottom', distance: '100px' });
 
-    ScrollReveal().reveal('.titleLoged', { delay: 200, origin: 'right', distance: '50px' });
-    ScrollReveal().reveal('.textLoged.part1', { delay: 200, origin: 'left', distance: '50px' });
-    ScrollReveal().reveal('.textLoged.part2', { delay: 200, origin: 'right', distance: '50px' });
-    ScrollReveal().reveal('.textLoged.part3', { delay: 200, origin: 'left', distance: '50px' });
-    ScrollReveal().reveal('.preTresMil', { delay: 200, origin: 'right', distance: '50px' });
-    ScrollReveal().reveal('.tresMil', { delay: 200, origin: 'left', distance: '50px' });
-    ScrollReveal().reveal('.playList', { delay: 200, origin: 'right', distance: '50px' });
-    ScrollReveal().reveal('a', { delay: 200, origin: 'left', distance: '50px' });
-});
+//     ScrollReveal().reveal('.titleLoged', { delay: 200, origin: 'right', distance: '50px' });
+//     ScrollReveal().reveal('.textLoged.part1', { delay: 200, origin: 'left', distance: '50px' });
+//     ScrollReveal().reveal('.textLoged.part2', { delay: 200, origin: 'right', distance: '50px' });
+//     ScrollReveal().reveal('.textLoged.part3', { delay: 200, origin: 'left', distance: '50px' });
+//     ScrollReveal().reveal('.preTresMil', { delay: 200, origin: 'right', distance: '50px' });
+//     ScrollReveal().reveal('.tresMil', { delay: 200, origin: 'left', distance: '50px' });
+//     ScrollReveal().reveal('.playList', { delay: 200, origin: 'right', distance: '50px' });
+//     ScrollReveal().reveal('a', { delay: 200, origin: 'left', distance: '50px' });
+// });
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();
@@ -131,14 +131,14 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
                     </div>
                 </section>
           `;
-            ScrollReveal().reveal('.titleLoged', { delay: 200, origin: 'right', distance: '50px' });
-            ScrollReveal().reveal('.textLoged.part1', { delay: 200, origin: 'left', distance: '50px' });
-            ScrollReveal().reveal('.textLoged.part2', { delay: 200, origin: 'right', distance: '50px' });
-            ScrollReveal().reveal('.textLoged.part3', { delay: 200, origin: 'left', distance: '50px' });
-            ScrollReveal().reveal('.preTresMil', { delay: 200, origin: 'right', distance: '50px' });
-            ScrollReveal().reveal('.tresMil', { delay: 200, origin: 'left', distance: '50px' });
-            ScrollReveal().reveal('.playList', { delay: 200, origin: 'right', distance: '50px' });
-            ScrollReveal().reveal('a', { delay: 200, origin: 'left', distance: '50px' });
+            // ScrollReveal().reveal('.titleLoged', { delay: 200, origin: 'right', distance: '50px' });
+            // ScrollReveal().reveal('.textLoged.part1', { delay: 200, origin: 'left', distance: '50px' });
+            // ScrollReveal().reveal('.textLoged.part2', { delay: 200, origin: 'right', distance: '50px' });
+            // ScrollReveal().reveal('.textLoged.part3', { delay: 200, origin: 'left', distance: '50px' });
+            // ScrollReveal().reveal('.preTresMil', { delay: 200, origin: 'right', distance: '50px' });
+            // ScrollReveal().reveal('.tresMil', { delay: 200, origin: 'left', distance: '50px' });
+            // ScrollReveal().reveal('.playList', { delay: 200, origin: 'right', distance: '50px' });
+            // ScrollReveal().reveal('a', { delay: 200, origin: 'left', distance: '50px' });
             
        
  
@@ -151,7 +151,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         document.getElementById('username').value = ''
         document.getElementById('password').value = ''
         Toastify({
-            text: "Sali de aca, devolveme a mi novia",
+            text: "Salí de acá, devolveme a mi novia",
             duration: 3000,
             gravity: "top", 
             position: "center", 
