@@ -1,329 +1,155 @@
-
 /* Reset and Normalize CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html.sr .load-hidden {
-    visibility: hidden;
-}
-
- html, body {
-
-
-    color: white;
-    font-family: "Poppins", sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-}
-
 main {
     display: block;
 }
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+html {
+    height: 100%;
 }
-
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
-}
-
-pre {
-    display: block;
-    font-family: monospace, monospace;
-    font-size: 1em;
-}
-
 a {
     background-color: transparent;
     text-decoration: none;
     color: inherit;
     -webkit-text-decoration-skip: objects;
 }
-
-abbr[title] {
-    border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted;
-}
-
-b, strong {
-    font-weight: bolder;
-}
-
-code, kbd, samp {
-    font-family: monospace, monospace;
-    font-size: 1em;
-}
-
-small {
-    font-size: 80%;
-}
-
-sub, sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sub {
-    bottom: -0.25em;
-}
-
-sup {
-    top: -0.5em;
-}
-
-audio, video {
-    display: inline-block;
-}
-
-audio:not([controls]) {
-    display: none;
-    height: 0;
-}
-
-img {
-    border-style: none;
-    max-width: 100%;
-    height: auto;
-}
-
-svg:not(:root) {
-    overflow: hidden;
-}
-
-button, input, optgroup, select, textarea {
-    font-family: sans-serif;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0;
-}
-
-button, input {
-    overflow: visible;
-}
-
-button, select {
-    text-transform: none;
-}
-
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-}
-
-button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
-}
-
-fieldset {
-    padding: 0.35em 0.75em 0.625em;
-}
-
-legend {
-    box-sizing: border-box;
-    color: inherit;
-    display: table;
-    max-width: 100%;
-    padding: 0;
-    white-space: normal;
-}
-
-progress {
-    vertical-align: baseline;
-}
-
-textarea {
-    overflow: auto;
-}
-
-[type="checkbox"], [type="radio"] {
-    box-sizing: border-box;
-    padding: 0;
-}
-
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
-    height: auto;
-}
-
-[type="search"] {
-    outline-offset: -2px;
-}
-
-[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit;
-}
-
-ol, ul {
-    list-style: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-} 
-
 /* Body */
-
-body{
+body {
+    height: 100%;
     width: 100%;
     font-family: "Poppins";
     color: white;
     overflow-x: hidden !important;
-
-    
 }
 /* Login */
-
-    .loginContainerSection{
-        display: flex;
-        background: linear-gradient(180deg, rgba(28,0,15,1) 45%, rgba(138,0,75,1) 100%);
-        flex-direction: column;
-        justify-content: center;
-        height: 100vh;
-
-        .textLogin{
-            margin-bottom: 25px;
-            .titleHB{
-                font-size: 22px;
-                font-weight: 600;
-                text-align: center;
-                margin-bottom: 1vh;
-
-            }
-            .textHB{
-                text-align: center;
-                opacity: 70%;
-                font-size: 14px;
-                font-weight: 400;
-                margin-bottom: 2vh;
-
-            }
-    }
-    .formLoginContainer{
-        form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-            input {
-                width: 75vw;
-                font-family: 'Poppins';
-                font-weight: 500;
-                transition: all.5s;
-                padding-left: 20px;
-                padding-block: 20px;
-                border: 2px solid #97808C;
-                border-radius: 15px;
-                background: transparent;
-                color: #fff;
-                font-size: 14px;
-            }
-            input:hover{
-                border: 2px solid #fff;
-
-            }
-            input::placeholder {
-                color: #97808C;
-                font-family: 'Poppins';
-                font-weight: 500;
-            }
-            input:focus {
-                outline: none;
-                border-color: #fff;
-            }
-            .loginButton{
-                margin-top: 4vh;
-                font-family: 'Poppins';
-                font-size: 14px;
-                color: #fff;
-                background: #1A000E;
-                transition: all .5s;
-                border-radius: 15px;
-                border: 0px;
-                padding-block: 20px;
-                width: 75vw;
-            }
-            .loginButton:hover{
-                cursor: pointer;
-                background: #2D0018;
-
-            }
-        }
-    }
-    }
-
+.loginContainerSection {
+    display: flex;
+    background: linear-gradient(180deg, rgba(28, 0, 15, 1) 45%, rgba(138, 0, 75, 1) 100%);
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.loginContainerSection .textLogin {
+    margin-bottom: 25px;
+}
+.loginContainerSection .textLogin .titleHB {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+.loginContainerSection .textLogin .textHB {
+    text-align: center;
+    opacity: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2vh;
+}
+.loginContainerSection .formLoginContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.loginContainerSection .formLoginContainer form input {
+    width: 75vw;
+    font-family: 'Poppins';
+    font-weight: 500;
+    transition: all 0.5s;
+    padding-left: 20px;
+    padding-block: 20px;
+    border: 2px solid #97808c;
+    border-radius: 15px;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+.loginContainerSection .formLoginContainer form input:hover {
+    border: 2px solid #fff;
+}
+.loginContainerSection .formLoginContainer form input::placeholder {
+    color: #97808c;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.loginContainerSection .formLoginContainer form input:focus {
+    outline: none;
+    border-color: #fff;
+}
+.loginContainerSection .formLoginContainer form .loginButton {
+    margin-top: 4vh;
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #fff;
+    background: #1a000e;
+    transition: all 0.5s;
+    border-radius: 15px;
+    border: 0px;
+    padding-block: 20px;
+    width: 75vw;
+}
+.loginContainerSection .formLoginContainer form .loginButton:hover {
+    cursor: pointer;
+    background: #2d0018;
+}
 /* Loged */
-.LogedContainer{
-    background: linear-gradient(180deg, rgba(28,0,15,1) 0%, rgba(138,0,75,1) 50%, rgba(28,0,15,1) 100% );
-
+.LogedContainer {
+    background: linear-gradient(180deg, rgba(28, 0, 15, 1) 0%, rgba(138, 0, 75, 1) 50%, rgba(28, 0, 15, 1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .titleLoged{
-        width: 80vw;
-        margin-block: 2.5vh;
-        margin-top: 4vh;
-        strong{
-            font-weight: 600;
-            color: #cf006e;
-        }
-    }
-    .textLogedContainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 3vh;
-        width: 100%;
-        .textLoged{
-        font-size: 14px;
-        width: 80vw;
-        line-height: 2rem;
-        }
 }
+.LogedContainer .titleLoged {
+    width: 80vw;
+    margin-block: 2.5vh;
+    margin-top: 4vh;
 }
-
-
-
-.finalLoged{
+.LogedContainer .titleLoged strong {
+    font-weight: 600;
+    color: #cf006e;
+}
+.LogedContainer .textLogedContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    width: 100%;
+}
+.LogedContainer .textLogedContainer .textLoged {
+    font-size: 14px;
+    width: 80vw;
+    line-height: 2rem;
+}
+.finalLoged {
     line-height: 2rem;
     width: 80vw;
     font-size: 14px;
-    .tresMil{
-        font-size: 18px;
-        font-weight: 600;
-        margin-top: 2vh;
-        margin-bottom: 4vh;
-    }
-    img{
-        border-radius: 15px;
-    }
-    .playList{
-        margin-top: 3vh;
-    }
 }
-
-.containerPhotos{
+.finalLoged .tresMil {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+.finalLoged a img {
+    width: 100% !important;
+    border-radius: 15px;
+}
+.finalLoged .playList {
+    margin-top: 3vh;
+}
+.containerPhotos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-block: 4vh;
-    img{
-        width: 33.3333333333333%;
-        object-fit: cover;
-    }
+}
+.containerPhotos img {
+    width: 33.3333333333%;
+    object-fit: cover;
 }

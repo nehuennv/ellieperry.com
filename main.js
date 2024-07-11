@@ -131,22 +131,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
                     </div>
                 </section>
           `;
-            // ScrollReveal().reveal('.titleLoged', { delay: 200, origin: 'right', distance: '50px' });
-            // ScrollReveal().reveal('.textLoged.part1', { delay: 200, origin: 'left', distance: '50px' });
-            // ScrollReveal().reveal('.textLoged.part2', { delay: 200, origin: 'right', distance: '50px' });
-            // ScrollReveal().reveal('.textLoged.part3', { delay: 200, origin: 'left', distance: '50px' });
-            // ScrollReveal().reveal('.preTresMil', { delay: 200, origin: 'right', distance: '50px' });
-            // ScrollReveal().reveal('.tresMil', { delay: 200, origin: 'left', distance: '50px' });
-            // ScrollReveal().reveal('.playList', { delay: 200, origin: 'right', distance: '50px' });
-            // ScrollReveal().reveal('a', { delay: 200, origin: 'left', distance: '50px' });
-            
-       
- 
 
-
-        
-        
-          
     } else {
         document.getElementById('username').value = ''
         document.getElementById('password').value = ''
